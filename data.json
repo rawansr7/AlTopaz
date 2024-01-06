@@ -1,0 +1,50 @@
+[
+    {
+        "model": "product.Product",
+        "pk": 1,
+        "fields": {
+            "name": "Creta-Hundai",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "price": 50,
+            "stars": 4,
+            "image": "/women-01.jpg",
+            "availability": 4
+        }
+    },
+    {
+        "model": "product.Product",
+        "pk": 2,
+        "fields": {
+            "name": "Plate 40cm Best Brand",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "price": 40,
+            "stars": 5,
+            "image": "/women-02.jpg",
+            "availability": 1
+        }
+    },
+    {
+        "model": "product.Product",
+        "pk": 3,
+        "fields": {
+            "name": "Toy Game for Kids",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "price": 20,
+            "stars": 5,
+            "image": "/women-03.jpg",
+            "availability": 10
+        }
+    },
+    {
+        "model": "product.Product",
+        "pk": 4,
+        "fields": {
+            "name": "Team Member",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "price": 130,
+            "stars": 3,
+            "image": "/team-member-01.jpg",
+            "availability": 7
+        }
+    }
+]

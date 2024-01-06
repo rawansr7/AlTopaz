@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block extracss %}
+<link rel="stylesheet" href="{% static 'css/cart.css'%}">
+{% endblock extracss %}
+
+{% block content %}
+<section class="section" id="men">
+    <div class="cart-container">
+
+        <section class="cart-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="section-heading">
+                            <h2>Your Cart</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul id="cart" class="cart-ul">
+                {% for product in products %}
+                <li class="cart-li"> <a href="{% url 'product' pk=product.pk %}"> {{product.name}} </a> <button
+                        class="remove-item">Remove</button></li>
+                {% endfor %}
+
+            </ul>
+            <div class="button-container">
+                <button class="clear-cart">Clear Cart</button>
+                <button class="checkout">Checkout</button>
+            </div>
+
+        </section>
+    </div>
+</section>
+{% endblock %}
+
+{% block extrajs %}
+<script>
+    // JavaScript for handling cart interactions
+    document.addEventListener("DOMContentLoaded", function () {
+        const cart = document.getElementById("cart");
+        const clearCartBtn = document.querySelector(".clear-cart");
+
+        cart.addEventListener("click", function (e) {
+            if (e.target.classList.contains("remove-item")) {
+                e.target.parentElement.remove();
+            }
+        });
+
+        clearCartBtn.addEventListener("click", function () {
+            cart.innerHTML = "";
+        });
+    });
+</script>
+{% endblock %}
