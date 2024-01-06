@@ -1,4 +1,8 @@
 **__pycache__**
 db.sqlite3
 static
-media
+media/*
+!media/p1.jpg
+!media/p2.jpg
+!media/p3.jpg
+!media/p4.jpg
