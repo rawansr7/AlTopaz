@@ -1,50 +1,50 @@
 [
-    {
-        "model": "product.Product",
-        "pk": 1,
-        "fields": {
-            "name": "Phone Cover White",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-            "price": 50,
-            "stars": 4,
-            "image": "/p1.jpg",
-            "availability": 4
-        }
-    },
-    {
-        "model": "product.Product",
-        "pk": 2,
-        "fields": {
-            "name": "Plate 40cm Black",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-            "price": 40,
-            "stars": 5,
-            "image": "/p2.jpg",
-            "availability": 1
-        }
-    },
-    {
-        "model": "product.Product",
-        "pk": 3,
-        "fields": {
-            "name": "Toy for Kids",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-            "price": 20,
-            "stars": 5,
-            "image": "/p3.jpg",
-            "availability": 10
-        }
-    },
-    {
-        "model": "product.Product",
-        "pk": 4,
-        "fields": {
-            "name": "Sun Glasses",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-            "price": 130,
-            "stars": 3,
-            "image": "/p4.jpg",
-            "availability": 7
-        }
+  {
+    "model": "product.Product",
+    "pk": 1,
+    "fields": {
+      "name": "Olive Blazer",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+      "price": 50,
+      "stars": 4,
+      "image": "/p1.jpg",
+      "availability": 4
     }
+  },
+  {
+    "model": "product.Product",
+    "pk": 2,
+    "fields": {
+      "name": "Classic Dress",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+      "price": 40,
+      "stars": 5,
+      "image": "/p2.jpg",
+      "availability": 1
+    }
+  },
+  {
+    "model": "product.Product",
+    "pk": 3,
+    "fields": {
+      "name": "Black Hat",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+      "price": 20,
+      "stars": 5,
+      "image": "/p3.jpg",
+      "availability": 10
+    }
+  },
+  {
+    "model": "product.Product",
+    "pk": 4,
+    "fields": {
+      "name": "Sun Glasses",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+      "price": 130,
+      "stars": 3,
+      "image": "/p4.jpg",
+      "availability": 7
+    }
+  }
 ]
